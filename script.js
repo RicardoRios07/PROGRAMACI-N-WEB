@@ -17,6 +17,8 @@ function Adivina() {
         document.getElementsByTagName('button')[0].disabled = true;
     }
 
+
+
     intentos--;
     if (intentos === 0) {
         document.getElementById('resultado').textContent = `No adivinaste el número. El número correcto era ${numeroAdivinar}`;
